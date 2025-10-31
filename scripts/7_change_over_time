@@ -1,0 +1,23 @@
+/*
+===============================================================================================================================================
+4. MEASURE EXPLORATION 
+===============================================================================================================================================
+SCRIPT PURPOSE
+		This script perform measure exploration:
+
+      -Defined key performance measures (e.g., sales, profit, quantity).
+
+      -Assessed measure distributions, averages, and variances across different dimensions.
+USAGE NOTES
+	  - Run the script to calculate the key metric of the business
+    - Aggregate function like SUM(), AVG(), COUNT() are used to query the level of aggregation
+    -Find the average selling price
+    -Find how many items are sold
+    -Find the average selling price
+    -Find the Total number of Orders
+    -Find the total number of products
+    -Find the total number of customers that has placed an order
+    -GENERATE a Report that shows all Key Metrics of the business
+===============================================================================================================================================
+
+*/

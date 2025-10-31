@@ -9,6 +9,7 @@ The goal of this project was to perform a comprehensive exploratory analysis usi
 This exploratory SQL project was designed to simulate real-world analytical workflows — beginning with understanding the database schema and progressing toward deeper performance, trend, and segmentation analysis. The objective was to transform raw data into meaningful insights that could guide data-driven decisions.
 
 Key Exploration Areas
+
 **1. Database Exploration**
 
 Examined the overall database structure, including tables, relationships, and data types.

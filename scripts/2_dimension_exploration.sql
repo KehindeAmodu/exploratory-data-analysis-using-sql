@@ -10,7 +10,7 @@ SCRIPT PURPOSE
 
 USAGE NOTES
 		- Run the script to identify unique value or categories in each dimension. Making it easy to recognise how data can be grouped or segmented.
-    - DISTINCT[dimension] is used to know the unique values available in the dimension
+    	- DISTINCT[dimension] is used to know the unique values available in the dimension
 ===============================================================================================================================================
 
 */

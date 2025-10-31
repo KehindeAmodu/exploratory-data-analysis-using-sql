@@ -21,14 +21,14 @@ USAGE NOTES
  -- DATE EXPLORATION USING MIN/MAX to know the earliest amd latest value
 
 SELECT 
-MIN (order_date) AS first_order_date,							                          ------------Date of first order
-MAX(order_date) AS last_order_date,								                          ------------Date of most recent order
-DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS Order_range_years      ------------Number of months between the time the first and the last order was made
+MIN (order_date) AS first_order_date,							                          	------------Date of first order
+MAX(order_date) AS last_order_date,								                          	------------Date of most recent order
+DATEDIFF(MONTH, MIN(order_date), MAX(order_date)) AS Order_range_years      				------------Number of months between the time the first and the last order was made
 FROM gold.fact_sales
 
 SELECT 
-MIN(birthdate) AS oldest_birthdate,								                          ------------Birthdate of oldest customer
-DATEDIFF(YEAR, MIN(birthdate), GETDATE()) AS oldest_age,		                -----------------age of oldest customer
-DATEDIFF(YEAR, MAX(birthdate), GETDATE()) AS youngest_age,		              ------------Birthdate of youngest customer
-MAX(birthdate) AS youngest_birthdate							                          -----------------age of oldest customer
+MIN(birthdate) AS oldest_birthdate,								                          	------------Birthdate of oldest customer
+DATEDIFF(YEAR, MIN(birthdate), GETDATE()) AS oldest_age,		                			-----------------age of oldest customer
+DATEDIFF(YEAR, MAX(birthdate), GETDATE()) AS youngest_age,		             				------------Birthdate of youngest customer
+MAX(birthdate) AS youngest_birthdate							                          	-----------------age of oldest customer
 FROM gold.dim_customers

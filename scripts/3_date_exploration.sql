@@ -10,7 +10,7 @@ SCRIPT PURPOSE
     - Explored seasonality, monthly and yearly trends, and temporal gap.
 
 USAGE NOTES
-		- Run the script to explore the boundary of time from the earliest and lastest date
+	- Run the script to explore the boundary of time from the earliest and lastest date
     - MIN() AND MAX() are used to query the earliest and lastest dates respectively
     - Find the date of the first and last order
     - Calculate range of order made in months
